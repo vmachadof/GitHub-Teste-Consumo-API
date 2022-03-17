@@ -1,8 +1,8 @@
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.example.testestant.Model.Itens
-import com.example.testestant.Model.ItensViewHolder
+import com.example.testestant.model.Itens
+import com.example.testestant.model.ItensViewHolder
 import com.example.testestant.R
 
 class AdapterFilms : RecyclerView.Adapter<ItensViewHolder>() {

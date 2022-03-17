@@ -1,4 +1,4 @@
-package com.example.testestant.Model
+package com.example.testestant.model
 
 import android.view.View
 import android.widget.ImageView

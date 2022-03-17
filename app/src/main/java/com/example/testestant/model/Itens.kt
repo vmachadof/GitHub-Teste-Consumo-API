@@ -1,4 +1,4 @@
-package com.example.testestant.Model
+package com.example.testestant.model
 
 data class Itens(
     val backdrop_path: String,
