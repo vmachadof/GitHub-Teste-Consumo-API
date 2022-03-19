@@ -1,15 +1,15 @@
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.example.testestant.model.Itens
+import com.example.testestant.model.Items
 import com.example.testestant.model.ItensViewHolder
 import com.example.testestant.R
 
-class AdapterFilms : RecyclerView.Adapter<ItensViewHolder>() {
+class AdapterMovies : RecyclerView.Adapter<ItensViewHolder>() {
 
-    private var items = listOf<Itens>()
+    private var items = listOf<Items>()
 
-    fun updateItems(newItems: List<Itens>) {
+    fun updateItems(newItems: List<Items>) {
         items = newItems
         notifyDataSetChanged()
     }

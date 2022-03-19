@@ -14,13 +14,13 @@ class ItensViewHolder(val view: View): RecyclerView.ViewHolder(view) {
     private val textView_genre = itemView.findViewById<TextView>(id.textView_genre)
     private val textView_year = itemView.findViewById<TextView>(id.textView_year)
 
-    fun bind(item: Itens ) {
+    fun bind(item: Items ) {
         textView_genre.text = item.genre
         textView_title.text = item.title
         textView_year.text = item.year
         imageView_backdrop_path.loadUrl(
             view,
             item.backdrop_path)
-        }
     }
+}
 
