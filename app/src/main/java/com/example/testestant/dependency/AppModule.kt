@@ -42,6 +42,7 @@ object AppModule {
             .build()
 
         //RetrofitBuilder
+
         val retrofit = Retrofit.Builder()
             .baseUrl(BASE_URL)
             .client(client)
@@ -51,7 +52,6 @@ object AppModule {
 
         return retrofit.create(T::class.java)
     }
-
 }
 
 

@@ -1,17 +1,21 @@
 package com.example.testestant.model
 
 import com.example.testestant.utils.Constants.API_KEY
-import retrofit2.Call
+import retrofit2.Response
 import retrofit2.http.GET
+import retrofit2.http.Path
 import retrofit2.http.Query
 
 interface MoviesService {
 
-    @GET("/movie/popular")
-    fun getPopularMovies(
-        @Query("api_Key") apiKey: String = API_KEY
-    ) : Call<MoviesPopular>
+    @GET("movie/popular")
+    suspend fun getPopularMovies(
+        @Query("api_key") apiKey: String = API_KEY
+    ) : Response<MoviesPopular>
 
-    @GET("/movie/{movie_id}")
-    fun getMovies(): Call<MoviesApiResults>
+    @GET("movie/{movieId}")
+    suspend fun getMovie(
+        @Path("movieId") movieId: String,
+        @Query("api_key") apiKey: String = API_KEY
+    ): Response<MoviesApiResults>
 }
