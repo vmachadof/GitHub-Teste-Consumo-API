@@ -1,5 +1,15 @@
-# GitHub-Teste-Consumo-API
+#About
+This app was developed during a challenge.
 
-Este App foi desenvolvido durante um processo de teste.
+This application consists of consume the GitHub API.
 
-A intenção é trabalhar o consumo de API.
+#Used technologies
+•	Glide library
+•	Retrofit
+•	Coroutines
+•	MVVM
+•	okHttp
+•	Kotlin
+
+#Me
+https://www.linkedin.com/in/victorfmachado/
