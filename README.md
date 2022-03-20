@@ -1,9 +1,14 @@
-#About
+About
+
 This app was developed during a challenge.
 
 This application consists of consume the GitHub API.
 
-#Used technologies
+
+
+
+Used technologies
+
 •	Glide library
 •	Retrofit
 •	Coroutines
